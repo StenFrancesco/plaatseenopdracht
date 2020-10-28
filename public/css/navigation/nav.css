@@ -1,0 +1,13 @@
+/* Navigation CSS */
+
+#loginnav:hover,
+#logginnav:focus {
+    text-decoration: none;
+    border-top: 3px solid orange;
+}
+
+.slogan {
+    padding-left: 20vw;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
