@@ -39,3 +39,7 @@
   </div>  
 </div>
 @endsection
+
+@section('footer')
+  @include('footer.footer')
+@stop

@@ -91,6 +91,7 @@
         <main>
             @yield('slogan')
             @yield('content')
+            @yield('footer')
         </main>    
     </div>
 </body>
