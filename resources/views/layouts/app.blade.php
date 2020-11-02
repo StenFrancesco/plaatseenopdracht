@@ -27,7 +27,6 @@
 </head>
 <body>
     <div id="app">
-    <!-- <div id="app" style="background-image: url('/images/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg'); background-repeat: no-repeat"> -->
         <nav class="navbar navbar-expand-xl sticky-top navbar-dark py-5 px-5">
             <a class="navbar-brand py-5" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
