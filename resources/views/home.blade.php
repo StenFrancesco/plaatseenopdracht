@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('css')
-<link rel="stylesheet" href="{{ asset('css/home/home.css') }}">
+@section('slogan')
+    @include('slogan.slogan')
 @stop
 
 @section('content')

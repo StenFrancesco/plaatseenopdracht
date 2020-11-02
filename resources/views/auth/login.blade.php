@@ -2,9 +2,7 @@
 
 @section('content')
 
-<link rel="stylesheet" href="{{ asset('css/login/login.css') }}">
-
-<div class="container" id="module" style="background-color: white">
+<div class="container" id="hundred-up">
     <div class="row py-5">
         <div class="col"></div>
         <div class="col-6 text-center"><h2>Inloggen</h2></div>
@@ -70,3 +68,7 @@
     </div>
 </div>
 @endsection
+
+@section('slogan')
+    @include('slogan.slogan')
+@stop

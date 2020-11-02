@@ -17,8 +17,8 @@
 
 .slogan {
     padding-left: 20vw;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 300px;
+    padding-bottom: 225px;
 }
 
 .nav-link {
@@ -35,11 +35,27 @@ body {
 }
 
 h6 {
-    font-family: "Owwald", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 /* Increase h1 size / normal size = 2.25rem */
 h1,
 .h1 {
     font-size: 4rem;
+}
+
+#hundred-up {
+    background-color: white;
+    margin-top: -100px;
+}
+
+/* Everything smaller than 1200px */
+
+@media (max-width: 1200px) {
+    .navbar {
+        background-image: url("/images/caspar-camille-rubin-7SDoly3FV_0-unsplash-original-greyscale_blur.jpg");
+    }
+    #hundred-up {
+        margin-top: 0px;
+    }
 }

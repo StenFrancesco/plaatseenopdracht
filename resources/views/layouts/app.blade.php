@@ -18,7 +18,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/navigation/nav.css') }}" rel="stylesheet">
     <style>
     
         
@@ -29,8 +28,8 @@
 <body>
     <div id="app">
     <!-- <div id="app" style="background-image: url('/images/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg'); background-repeat: no-repeat"> -->
-        <nav class="navbar navbar-expand-md sticky-top navbar-dark py-5 px-5" style="background-color: black">
-            <a class="navbar-brand pl-5" href="{{ url('/') }}">
+        <nav class="navbar navbar-expand-xl sticky-top navbar-dark py-5 px-5">
+            <a class="navbar-brand py-5" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -40,22 +39,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item pl-5 pr-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Hoe werkt het</h3></p><p>Maak kennis met plaatseenopdracht</p></a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Hoe werkt het</h3></p><p class="d-none d-sm-none d-md-block">Maak kennis met plaatseenopdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Advertentie plaatsen</h3></p><p>Plaats direct een opdracht</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block">Plaats direct een opdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Over plaatseenopdracht</h3></p><p>Voor als je meer wilt weten</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block">Voor als je meer wilt weten</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Contact opnemen</h3></p><p>Wil je contact opnemen? Klik hier</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block">Wil je contact opnemen? Klik hier</p></a>
                     </li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto pl-5">
+                <ul class="navbar-nav ml-auto py-5">
                     <!-- Authentication Links -->
                     @guest
                         <li class="nav-item px-4">
@@ -89,11 +88,9 @@
                     @endguest
                 </ul>
             </div>
-        </nav>
-        <div style="box-shadow: 0px 8px 60px -6px grey"><h1 style="color: white; background-color: black" class="slogan">Plaats een opdracht slogan</h1> </div>
-               
-
-        <main class="py-4" style="margin-top: -100px">
+        </nav>               
+        <main>
+            @yield('slogan')
             @yield('content')
         </main>    
     </div>
