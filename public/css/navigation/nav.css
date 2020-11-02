@@ -17,3 +17,10 @@ h1,
 .h1 {
     font-size: 4rem;
 }
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-top: 3px solid transparent;
+    color: #ffffff;
+}
