@@ -10915,13 +10915,6 @@ a.text-dark:focus {
   padding-bottom: 150px;
 }
 
-/* normal size = 2.25rem */
-
-h1,
-.h1 {
-  font-size: 4rem;
-}
-
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -10929,11 +10922,20 @@ h1,
   color: #ffffff;
 }
 
+/* Body CSS font */
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 h6 {
   font-family: "Owwald", sans-serif;
+}
+
+/* Increase h1 size / normal size = 2.25rem */
+
+h1,
+.h1 {
+  font-size: 4rem;
 }
 
