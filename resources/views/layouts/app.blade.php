@@ -27,8 +27,9 @@
     
 </head>
 <body>
-    <div id="app" style="background-image: url('/images/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg'); background-repeat: no-repeat">
-        <nav class="navbar navbar-expand-md sticky-top navbar-dark py-5 px-5">
+    <div id="app">
+    <!-- <div id="app" style="background-image: url('/images/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg'); background-repeat: no-repeat"> -->
+        <nav class="navbar navbar-expand-md sticky-top navbar-dark py-5 px-5" style="background-color: black">
             <a class="navbar-brand pl-5" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
             </a>
@@ -40,16 +41,16 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item pl-5 pr-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h6>HOE WERKT HET</h6></p><p>Maak kennis met plaatseenopdracht</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Hoe werkt het</h3></p><p>Maak kennis met plaatseenopdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h6>ADVERTENTIE PLAATSEN</h6></p><p>Plaats direct een opdracht</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Advertentie plaatsen</h3></p><p>Plaats direct een opdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h6>OVER PLAATSJEOPDRACHT</h6></p><p>Voor als je meer wilt weten</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Over plaatseenopdracht</h3></p><p>Voor als je meer wilt weten</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h6>CONTACT OPNEMEN</h6></p><p>Wil je contact opnemen? Klik hier</p></a>
+                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Contact opnemen</h3></p><p>Wil je contact opnemen? Klik hier</p></a>
                     </li>
                 </ul>
 
@@ -58,11 +59,11 @@
                     <!-- Authentication Links -->
                     @guest
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="{{ route('login') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('LOGIN') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('Inloggen') }}</a>
                         </li>
                         @if (Route::has('register'))
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="{{ route('register') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('REGISTER') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('Registreren') }}</a>
                             </li>
                         @endif
                     @else
@@ -89,9 +90,10 @@
                 </ul>
             </div>
         </nav>
-        <h1 style="color: white" class="slogan">Plaats een opdracht slogan</h1>        
+        <div style="box-shadow: 0px 8px 60px -6px grey"><h1 style="color: white; background-color: black" class="slogan">Plaats een opdracht slogan</h1> </div>
+               
 
-        <main class="py-4">
+        <main class="py-4" style="margin-top: -100px">
             @yield('content')
         </main>    
     </div>

@@ -1,16 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row pb-5">
+
+<link rel="stylesheet" href="{{ asset('css/login/login.css') }}">
+
+<div class="container" id="module" style="background-color: white">
+    <div class="row py-5">
         <div class="col"></div>
         <div class="col-6 text-center"><h2>Inloggen</h2></div>
         <div class="col"></div>
     </div>
-    <div class="row">
-        <div class="col">1</div>
+    <div class="row pb-5">
+        <div class="col"></div>
         <div class="col-6">
             <form method="POST" action="{{ route('login') }}">
+                @csrf
                 <div class="form-group row">                
                     <label for="email" class="col-md-4 col-form-label text-md-right">{{ __ ('E-mailadres') }}</label>
                     <div class="col-md-6">
@@ -49,7 +53,7 @@
                 </div>
                 <div class="form-group row mb-0">
                     <div class="col-md-8 offset-md-4">
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-warning">
                             {{ __('Inloggen') }}
                         </button>
 
@@ -62,7 +66,7 @@
                 </div>
             </form>
         </div>
-        <div class="col">3</div>
+        <div class="col"></div>
     </div>
 </div>
 @endsection
