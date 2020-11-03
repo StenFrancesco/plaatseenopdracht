@@ -16,7 +16,7 @@
 #logginnav:focus {
     text-decoration: none;
     border-top: 2px solid #ffe924;
-    transition: ease 0.5s;
+    transition: ease-in-out 0.5s;
 }
 
 .slogan {
@@ -84,7 +84,6 @@ nav.scrolled {
 .nav-link.scrolled:hover,
 .nav-link.nav-link.scrolled:active {
     border-top: 2px solid white !important;
-    transition: ease 0.5s;
 }
 
 p.subtext.scrolled {
