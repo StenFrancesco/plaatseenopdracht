@@ -11,6 +11,14 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function(){
+            $('nav, .nav-link, .subtext, .navbar').toggleClass('scrolled', $(this).scrollTop() >= 100);            
+        });
+
+    </script>
+
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,11 +26,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <style>
-    
-        
-    
-    </style>
     
 </head>
 <body>
@@ -39,16 +42,19 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Hoe werkt het</h3></p><p class="d-none d-sm-none d-md-block">Maak kennis met plaatseenopdracht</p></a>
+                        <a class="nav-link" href="#" id="loginnav">
+                            <p><h3>Hoe werkt het</h3></p>
+                            <p class="d-none d-sm-none d-md-block subtext">Maak kennis met plaatseenopdracht</p>
+                        </a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block">Plaats direct een opdracht</p></a>
+                        <a class="nav-link" href="#" id="loginnav"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block subtext">Plaats direct een opdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block">Voor als je meer wilt weten</p></a>
+                        <a class="nav-link" href="#" id="loginnav"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block subtext">Voor als je meer wilt weten</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" id="loginnav" href="#" style="color: white; font-weight: bold; font-size: 15px"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block">Wil je contact opnemen? Klik hier</p></a>
+                        <a class="nav-link" href="#" id="loginnav"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block subtext">Wil je contact opnemen? Klik hier</p></a>
                     </li>
                 </ul>
 
@@ -86,13 +92,15 @@
                         </li>
                     @endguest
                 </ul>
-            </div>
-        </nav>               
+            </div>            
+        </nav>
+
         <main>
             @yield('slogan')
             @yield('content')
             @yield('footer')
         </main>    
     </div>
+    
 </body>
 </html>

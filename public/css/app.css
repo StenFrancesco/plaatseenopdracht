@@ -13951,7 +13951,8 @@ a.text-dark:focus {
 #loginnav:hover,
 #logginnav:focus {
   text-decoration: none;
-  border-top: 3px solid #ffe924;
+  border-top: 2px solid #ffe924;
+  transition: ease 0.5s;
 }
 
 .slogan {
@@ -13963,8 +13964,8 @@ a.text-dark:focus {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  border-top: 3px solid transparent;
-  color: #ffffff;
+  border-top: 2px solid transparent;
+  color: #ffffff !important;
 }
 
 /* Body CSS font */
@@ -13993,11 +13994,38 @@ h1,
 
 @media (max-width: 1200px) {
   .navbar {
-    background-color: black;
+    background-color: #474747;
   }
 
   #hundred-up {
     margin-top: 0px;
   }
+}
+
+/* Navbar scroll color changes */
+
+.navbar.scrolled {
+  transition: ease 0.5s;
+}
+
+nav.scrolled {
+  background: #474747;
+  transition: ease 0.5s;
+  box-shadow: 0px 8px 10px -6px #ffed4a;
+}
+
+.nav-link.scrolled {
+  color: #ffed4a !important;
+  border-top: 2px solid transparent;
+}
+
+.nav-link.scrolled:hover,
+.nav-link.nav-link.scrolled:active {
+  border-top: 2px solid white !important;
+  transition: ease 0.5s;
+}
+
+p.subtext.scrolled {
+  display: none !important;
 }
 

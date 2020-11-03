@@ -72,3 +72,7 @@
 @section('slogan')
     @include('slogan.slogan')
 @stop
+
+@section('footer')
+  @include('footer.footer')
+@stop
