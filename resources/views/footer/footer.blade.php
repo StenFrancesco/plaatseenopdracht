@@ -17,24 +17,20 @@
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
           <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          <a>
+            <i class="fa fa-facebook-square mr-4"></i>
           </a>
           <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          <a>
+            <i class="fa fa-twitter white-text mr-4"> </i>
           </a>
           <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          <a>
+            <i class="fa fa-linkedin-square white-text mr-4"></i>
           </a>
           <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram white-text"> </i>
+          <a>
+            <i class="fa fa-instagram white-text"> </i>
           </a>
 
         </div>
