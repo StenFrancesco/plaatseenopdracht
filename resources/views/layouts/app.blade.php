@@ -13,9 +13,19 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        $(window).scroll(function(){
-            $('nav, .navigationlinks, .subtext, .navbar').toggleClass('scrolled', $(this).scrollTop() >= 100);            
-        });
+        // $(window).scroll(function(){
+        //     $('nav, .navigationlinks, .subtext, .navbar').toggleClass('scrolled', $(this).scrollTop() >= 100);            
+        // });
+
+        $(window).scroll(function() {
+            var  scroll = $(window).scrollTop();
+
+            if (scroll > 100) {
+                $('.nav, .subtext, .navbar').addClass('scrolled');
+            } else {
+                $('.nav, .subtext, .navbar').removeClass('scrolled');
+            }
+        })
 
     </script>
 
