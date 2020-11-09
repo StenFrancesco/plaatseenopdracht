@@ -119,3 +119,10 @@ nav.scrolled {
 p.subtext.scrolled {
     display: none !important;
 }
+
+// fix container-fluid issue
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}

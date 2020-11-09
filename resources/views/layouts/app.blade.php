@@ -108,6 +108,7 @@
         <main>
             @yield('slogan')
             @yield('content')
+            @yield('howitworks')
             @yield('footer')
         </main>    
     </div>

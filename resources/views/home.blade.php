@@ -40,6 +40,11 @@
 </div>
 @endsection
 
+
+@section('howitworks')
+    @include('howitworks.howitworks')
+@stop
+
 @section('footer')
   @include('footer.footer')
 @stop
