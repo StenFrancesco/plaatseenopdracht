@@ -42,19 +42,19 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-4">
-                        <a class="nav-link navigationlinks" href="#" id="loginnav">
+                        <a class="nav-link navilinks" href="#">
                             <p><h3>Hoe werkt het</h3></p>
                             <p class="d-none d-sm-none d-md-block subtext">Maak kennis met plaatseenopdracht</p>
                         </a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navigationlinks" href="#" id="loginnav"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block subtext">Plaats direct een opdracht</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block subtext">Plaats direct een opdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navigationlinks" href="#" id="loginnav"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block subtext">Voor als je meer wilt weten</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block subtext">Voor als je meer wilt weten</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navigationlinks" href="#" id="loginnav"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block subtext">Wil je contact opnemen? Klik hier</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block subtext">Wil je contact opnemen? Klik hier</p></a>
                     </li>
                 </ul>
 
@@ -63,11 +63,11 @@
                     <!-- Authentication Links -->
                     @guest
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="{{ route('login') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('Inloggen') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}" style="color: white; font-weight: bold; font-size: 15px">{{ __('Inloggen') }}</a>
                         </li>
                         @if (Route::has('register'))
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="{{ route('register') }}" style="color: white; font-weight: bold; font-size: 15px" id="loginnav">{{ __('Registreren') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}" style="color: white; font-weight: bold; font-size: 15px">{{ __('Registreren') }}</a>
                             </li>
                         @endif
                     @else
