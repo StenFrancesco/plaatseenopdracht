@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container" id="hundred-up">
+<div class="container" id="fifty-up">
     <div class="row py-5">
         <div class="col"></div>
         <div class="col-6 text-center"><h2>Inloggen</h2></div>

@@ -17,15 +17,15 @@
         //     $('nav, .navigationlinks, .subtext, .navbar').toggleClass('scrolled', $(this).scrollTop() >= 100);            
         // });
 
-        $(window).scroll(function() {
-            var  scroll = $(window).scrollTop();
+        // $(window).scroll(function() {
+        //     var  scroll = $(window).scrollTop();
 
-            if (scroll > 100) {
-                $('.nav, .subtext, .navbar').addClass('scrolled');
-            } else {
-                $('.nav, .subtext, .navbar').removeClass('scrolled');
-            }
-        })
+        //     if (scroll > 100) {
+        //         $('.nav, .subtext, .navbar').addClass('scrolled');
+        //     } else {
+        //         $('.nav, .subtext, .navbar').removeClass('scrolled');
+        //     }
+        // })
 
     </script>
 
@@ -40,7 +40,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-xl sticky-top navbar-dark py-5 px-5">
+        <nav class="navbar navbar-expand-xl navbar-dark py-5 px-5">
             <a class="navbar-brand py-5" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
             </a>
@@ -53,18 +53,18 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-4">
                         <a class="nav-link navilinks" href="#">
-                            <p><h3>Hoe werkt het</h3></p>
+                            <p><h5><strong>HOE</strong>WERKTHET</h5></p>
                             <p class="d-none d-sm-none d-md-block subtext">Maak kennis met plaatseenopdracht</p>
                         </a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navilinks" href="#"><p><h3>Advertentie plaatsen</h3></p><p class="d-none d-sm-none d-md-block subtext">Plaats direct een opdracht</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h5><strong>ADVERTENTIE</strong>PLAATSEN</h5></p><p class="d-none d-sm-none d-md-block subtext">Plaats direct een opdracht</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navilinks" href="#"><p><h3>Over plaatseenopdracht</h3></p><p class="d-none d-sm-none d-md-block subtext">Voor als je meer wilt weten</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h5><strong>OVER</strong>PLAATSEENOPDRACHT</h5></p><p class="d-none d-sm-none d-md-block subtext">Voor als je meer wilt weten</p></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link navilinks" href="#"><p><h3>Contact opnemen</h3></p><p class="d-none d-sm-none d-md-block subtext">Wil je contact opnemen? Klik hier</p></a>
+                        <a class="nav-link navilinks" href="#"><p><h5><strong>CONTACT</strong>OPNEMEN</h5></p><p class="d-none d-sm-none d-md-block subtext">Wil je contact opnemen? Klik hier</p></a>
                     </li>
                 </ul>
 

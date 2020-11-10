@@ -5,7 +5,16 @@
 @stop
 
 @section('content')
-<div class="container" id="hundred-up">
+<div class="container" id="fifty-up" style="height: 500px;">
+
+<div class="row py-5">
+<div class="col">
+    <h2 class="text-center"><strong>VIND</strong>EENOPDRACHT</h2>
+
+</div>    
+</div>
+
+
   <div class="row py-5">
       <div class="col"></div>
       <div class="col-6">
