@@ -5,16 +5,18 @@
 @stop
 
 @section('content')
-<div class="container" style="margin-top: -100px; background-color: white; padding-top: 15px">
+<div class="container hundred-up" style="padding-top: 15px">
 
-<div class="row py-5 sideborder50left">
+<div class="row py-5 sideborder50left text-center">
 <div class="col">
+    <i class="fa fa-search fa-4x pb-5"></i>
+    
     <h2 class="text-center"><strong>VIND</strong>EENOPDRACHT</h2>
 </div>    
 </div>
 
 
-  <div class="row py-2 pb-5">
+  <div class="row py-1 pb-5">
       <div class="col"></div>
       <div class="col-6">
             <form method="POST" action="">

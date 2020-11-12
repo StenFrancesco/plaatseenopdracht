@@ -14020,6 +14020,11 @@ h1,
   margin-top: -50px;
 }
 
+.hundred-up {
+  background-color: white;
+  margin-top: -100px;
+}
+
 /* Everything smaller than 1200px */
 
 @media (max-width: 1200px) {
@@ -14027,7 +14032,7 @@ h1,
     background-color: #969696;
   }
 
-  #hundred-up {
+  .hundred-up {
     margin-top: 0px;
   }
 }
