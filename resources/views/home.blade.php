@@ -5,8 +5,18 @@
 @stop
 
 @section('content')
-<div class="container" id="hundred-up">
-  <div class="row py-5">
+<div class="container hundred-up" style="padding-top: 15px">
+
+<div class="row py-5 sideborder50left text-center">
+<div class="col">
+    <i class="fa fa-search fa-4x pb-5"></i>
+    
+    <h2 class="text-center"><strong>VIND</strong>EENOPDRACHT</h2>
+</div>    
+</div>
+
+
+  <div class="row py-1 pb-5">
       <div class="col"></div>
       <div class="col-6">
             <form method="POST" action="">
@@ -39,6 +49,11 @@
   </div>  
 </div>
 @endsection
+
+
+@section('howitworks')
+    @include('howitworks.howitworks')
+@stop
 
 @section('footer')
   @include('footer.footer')
