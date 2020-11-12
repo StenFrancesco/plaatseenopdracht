@@ -35,7 +35,7 @@ h3 strong {
     background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
     text-align: center;
     padding-top: 400px;
-    padding-bottom: 325px;
+    padding-bottom: 500px;
     text-transform: uppercase;
     color: white;
     font-weight: $bold;
@@ -77,6 +77,7 @@ h3 strong {
 
 body {
     font-family: $opensans;
+    font-size: 1rem;
 }
 
 h1,
@@ -190,4 +191,14 @@ p.subtext.scrolled {
 
 .boxshadow {
     box-shadow: 0px 60px 60px -30px grey;
+}
+
+// Side border 50%
+
+.sideborder50left {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, $yellowprimary, rgba(0, 0, 0, 0)) 3
+        repeat;
+    border-top: 3px solid $yellowprimary;
 }

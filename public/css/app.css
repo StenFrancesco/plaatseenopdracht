@@ -13954,7 +13954,7 @@ h3 strong {
   /* Black w/opacity/see-through */
   text-align: center;
   padding-top: 400px;
-  padding-bottom: 325px;
+  padding-bottom: 500px;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
@@ -13995,6 +13995,7 @@ h3 strong {
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
 }
 
 h1,
@@ -14103,5 +14104,13 @@ p.subtext.scrolled {
 
 .boxshadow {
   box-shadow: 0px 60px 60px -30px grey;
+}
+
+.sideborder50left {
+  border-width: 3px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, #ffe924, rgba(0, 0, 0, 0)) 3 repeat;
+     border-image: linear-gradient(to bottom, #ffe924, rgba(0, 0, 0, 0)) 3 repeat;
+  border-top: 3px solid #ffe924;
 }
 
