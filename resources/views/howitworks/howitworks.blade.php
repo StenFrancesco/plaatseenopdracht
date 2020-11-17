@@ -52,18 +52,18 @@
           <div class="row" style="background-color: white">            
 
             <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
-              <p class="py-2">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
+              <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
               <button type="submit" class="btn btn-warning btn-block">
                   {{ __('Inschrijven') }}
               </button>  
             </div>
 
             <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
-              <p class="py-2">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
+              <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
               </div>
 
             <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
-              <p class="py-2">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
+              <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
             </div>
 
             
