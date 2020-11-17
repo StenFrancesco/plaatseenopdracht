@@ -69,13 +69,15 @@
 						<input type="file"  accept="image/*" name="image" id="file" multiple onchange="loadFile(event)" style="display: none;">
 						<label for="file" class="btn btn-info"><i class="fas fa-upload"></i> Upload Afbeeldingen</label>
 						<div style="height: 160px;" id="uploaded_images">
-							@foreach ($ad->images() as $image) 
-								<div class="image-block">
-									<i class="fas fa-times remove-image-block"></i>
-									<input type="hidden" name="existing_image[]" value="{{ $image->id }}">
-									<img src="{{ $image->url() }}" style="height: 160px;">
-								</div>
-							@endforeach
+							@if ($ad)
+								@foreach ($ad->images() as $image) 
+									<div class="image-block">
+										<i class="fas fa-times remove-image-block"></i>
+										<input type="hidden" name="existing_image[]" value="{{ $image->id }}">
+										<img src="{{ $image->url() }}" style="height: 160px;">
+									</div>
+								@endforeach
+							@endif
 						</div>
 
 <script>
@@ -84,7 +86,6 @@ var loadFile = function(event) {
 		$('#uploaded_images').append(draw_image_block(event.target.files[i]));
 	}
 };
-
 function draw_image_block(file) {
 	var node = $('<div class="image-block"><i class="fas fa-times remove-image-block"></i><input type="hidden" name="file_data[]"><input type="hidden" name="file_name[]"><img src="' + URL.createObjectURL(file) + '" style="height: 160px;"></div>');
 	node.find('[name^=file_name]').val(file.name);
@@ -98,7 +99,6 @@ function draw_image_block(file) {
 	});
 	return node;
 }
-
 $(window).ready(function() {
 	$('.remove-image-block').click(function() {
 		$(this).closest('.image-block').remove();
