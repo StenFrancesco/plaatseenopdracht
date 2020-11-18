@@ -50,6 +50,9 @@
 </div>
 @endsection
 
+@section('categories')
+    @include('categories.categories')
+@stop
 
 @section('howitworks')
     @include('howitworks.howitworks')
