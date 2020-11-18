@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        
+        return view('home', ['categories' => \App\Models\Category::get_all_categories()]);
     }
+
 }
