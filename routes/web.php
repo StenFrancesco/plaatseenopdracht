@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['categories' => \App\Models\Category::get_all_categories()]);
 });
 
 Auth::routes();
