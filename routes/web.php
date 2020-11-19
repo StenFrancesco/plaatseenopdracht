@@ -34,7 +34,7 @@ Route::match(['get', 'post'], 'service/view/{id}', [App\Http\Controllers\Service
 Route::get('service/overview', [App\Http\Controllers\ServiceController::class, 'overview']);
 
 // Ad (opdrachten) controllers
-Route::match(['get', 'post'], 'ad/create', [App\Http\Controllers\AdController::class, 'edit']);
-Route::match(['get', 'post'], 'ad/edit/{id}', [App\Http\Controllers\AdController::class, 'edit']);
-Route::match(['get', 'post'], 'ad/view/{id}', [App\Http\Controllers\AdController::class, 'view']);
-Route::get('ad/overview', [App\Http\Controllers\AdController::class, 'overview']);
+Route::match(['get', 'post'], 'ad/create', [App\Http\Controllers\Ad2Controller::class, 'edit']);
+Route::match(['get', 'post'], 'ad/edit/{id}', [App\Http\Controllers\Ad2Controller::class, 'edit']);
+Route::match(['get', 'post'], 'ad/view/{id}', [App\Http\Controllers\Ad2Controller::class, 'view']);
+Route::get('ad/overview', [App\Http\Controllers\Ad2Controller::class, 'overview']);

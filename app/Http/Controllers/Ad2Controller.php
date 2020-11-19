@@ -5,7 +5,7 @@ use Illuminate\Http\File;
 use Illuminate\Support\Facades\Storage;
 
 
-class AdController extends Controller	{
+class Ad2Controller extends Controller	{
 
 	public function __construct() {
 		$this->middleware('auth');
