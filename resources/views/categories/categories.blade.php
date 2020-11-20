@@ -4,9 +4,10 @@
 <div class="container-fluid py-5">
   <div class="row">
     <div class="col-md-10 offset-md-1">
-      <div class="grid">
+      <div class="row grid">
       @foreach ($categories as $category)
-        <figure class="effect-sarah">
+        <div class="col-md-3">
+		<figure class="effect-sarah">
           <img src="images/13.jpg" alt="img13"/>
           <figcaption>          
             <h2>{{ $category->val('parent') }}</h2>
@@ -14,6 +15,7 @@
             <a href="#">View more</a>
           </figcaption>		          
         </figure>
+		</div>
         @endforeach
         <figure class="effect-sarah">
           <img src="images/13.jpg" alt="img13"/>
