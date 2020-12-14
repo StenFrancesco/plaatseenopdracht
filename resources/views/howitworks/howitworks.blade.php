@@ -14,61 +14,30 @@
         <div class="sideborder50left">
           <div class="row align-items-center" style="background-color: white">
             
-            <!-- Icons-row -->
+            <!-- rows -->
 
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 text-center">
-              <i class="fa fa-user-plus fa-4x"></i>              
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 text-center">
-              <i class="fa fa-road fa-4x"></i>              
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 text-center">
-              <i class="fa fa-comments fa-4x"></i>              
-            </div>
-          </div>
-
-          <!-- H4-row -->
-
-          <div class="row align-items-end">            
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-center">              
-              <h4 class="pt-3">Inschrijven</h4>                        
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-center" style="vertical-align: text-bottom">            
-              <h4 class="pt-3">Plaats advertentie of reageer op advertentie</h4>              
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-center" style="vertical-align: text-bottom">              
-              <h4 class="pt-3">Match en chat</h4>              
-            </div>
-
-          </div>
-
-          <!-- Subtext-row -->
-
-          <div class="row" style="background-color: white">            
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
+            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 pb-2 text-center">
+              <i class="fa fa-user-plus fa-4x"></i>
+              <h4 class="pt-3">Inschrijven</h4>
               <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
               <button type="submit" class="btn btn-warning btn-block">
                   {{ __('Inschrijven') }}
-              </button>  
+              </button>                
             </div>
 
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
-              <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
-              </div>
-
-            <div class="col-sm-6 col-md-4 col-xs-12 pt-3 text-justify">              
+            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 pb-2 text-center">
+              <i class="fa fa-road fa-4x"></i>
+              <h4 class="pt-3">Plaats advertentie of reageer op advertentie</h4>
               <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
             </div>
 
-            
-
-          </div>
+            <div class="col-sm-6 col-md-4 col-xs-12 pt-5 pb-2 text-center">
+              <i class="fa fa-comments fa-4x"></i>
+              <h4 class="pt-3">Match en chat</h4>
+              <p class="py-2 px-3">Je hebt geen account nodig om advertenties te bekijken. Mocht je willen reageren en/of zelf advertenties willen plaatsen, dan kun je hier je account aanmaken.<p>              
+            </div>
+          </div> 
+          
         </div>
       </div>      
     </div>
