@@ -10,8 +10,8 @@
 		      <figure class="effect-sarah">
             <img src="{{ $category->image() }}" alt="categoryimage" />
             <figcaption>          
-              <h2>{{ $category->val('title') }}</h2>
-              <p>{{ $category->val('child') }}</p>
+              <h2 class="fat">{{ $category->val('title') }}</h2>
+              <p>{{ $category->val('parent') }}</p>
               <a href="#">View more</a>
             </figcaption>		          
             </figure>

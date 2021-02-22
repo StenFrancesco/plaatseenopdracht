@@ -10,10 +10,11 @@ $raleway: "Raleway", sans-serif;
 $normal: 400;
 $semibold: 600;
 $bold: 700;
+$verybold: 900;
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Nunito");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700;900&display=swap");
 
 // Variables
 @import "variables";
@@ -78,6 +79,7 @@ h3 strong {
 body {
     font-family: $opensans;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 h1,
@@ -94,6 +96,20 @@ h6 {
 h1,
 .h1 {
     font-size: 4rem;
+}
+
+h4,
+.h4 {
+    font-weight: $verybold;
+}
+
+h2,
+.h2 {
+    font-weight: $verybold;
+}
+
+.fat {
+    font-weight: $verybold;
 }
 
 #fifty-up {
