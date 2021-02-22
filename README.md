@@ -4,7 +4,7 @@
 -   Blade templates
 -   Bootstrap for styling
 -   Sass for custom styling
--       Axios for asynchronous HTTP requests
+-   Axios for asynchronous HTTP requests
 
 ## how to use:
 
