@@ -229,4 +229,12 @@ return [
 
     ],
 
+    's3_host' => env('S3_HOST'),
+	's3_bucket' => env('S3_BUCKET'),
+	's3_api_key' => env('S3_API_KEY'),
+	's3_api_secret' => env('S3_API_SECRET'),
+	's3_region' => env('S3_REGION'),
+	
+	'pem_file' => env('PEM_FILE')
+
 ];
