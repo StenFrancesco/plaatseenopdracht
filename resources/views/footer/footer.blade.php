@@ -9,7 +9,7 @@
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
+          <h6 class="mb-0">In contact komen? Klik op de social knop naar keuze!</h6>
         </div>
         <!-- Grid column -->
 
@@ -52,20 +52,20 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+        <h6 class="text-uppercase font-weight-bold">Plaatseenopdracht</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+        <!-- <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
           consectetur
-          adipisicing elit.</p>
+          adipisicing elit.</p> -->
 
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"> -->
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <!-- <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <a href="#!">MDBootstrap</a>
@@ -78,28 +78,28 @@
         </p>
         <p>
           <a href="#!">Bootstrap Angular</a>
-        </p>
+        </p> -->
 
-      </div>
+      <!-- </div> -->
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <h6 class="text-uppercase font-weight-bold">Handige links</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="#!">Your Account</a>
+          <a href="#!">Jouw account</a>
         </p>
         <p>
-          <a href="#!">Become an Affiliate</a>
+          <a href="#!">Algemene voorwaarden</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="#!">Regels</a>
         </p>
         <p>
-          <a href="#!">Help</a>
+          <a href="#!">Chat</a>
         </p>
 
       </div>
@@ -112,9 +112,9 @@
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <i class="fas fa-home mr-3"></i> Amsterdam</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <i class="fas fa-envelope mr-3"></i> info@plaatseenopdracht.nl</p>
         <p>
           <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
         <p>
@@ -131,7 +131,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="#"> Plaatseenopdracht.nl</a>
   </div>
   <!-- Copyright -->
 
